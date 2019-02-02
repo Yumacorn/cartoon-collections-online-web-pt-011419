@@ -8,7 +8,6 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.include? {|call| call.length > 4}
-  # Your code here
 end
 
 def find_the_cheese# code an argument here
