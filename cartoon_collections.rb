@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(assortment)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  assortment.detect {|item| item.include{cheese_types}}
+  assortment.detect {|item| item.include?{cheese_types}}
 end
