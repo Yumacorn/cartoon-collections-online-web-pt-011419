@@ -13,6 +13,7 @@ end
 def find_the_cheese(assortment)
   cheese_types = ["cheddar", "gouda", "camembert"]
   assortment.each do |item|
-    return item cheese_types.include?(item)
+    if cheese_types.include?(item)
+      return item
   end
 end
