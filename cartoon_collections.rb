@@ -17,3 +17,6 @@ def find_the_cheese(assortment)
       return item
   end
 end
+
+snacks = ["crackers", "gouda", "thyme"]
+find_the_cheese(snacks)
