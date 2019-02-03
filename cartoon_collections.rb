@@ -22,5 +22,5 @@ def find_the_cheese(assortment)
   end
 end
 
-snacks = ["crackers", "gouda", "thyme"]
+snacks = ["crackers", "ouda", "thyme"]
 find_the_cheese(snacks)
