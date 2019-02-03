@@ -17,6 +17,7 @@ def find_the_cheese(assortment)
       puts item
       return item
     end
+      return nil
   end
 end
 
