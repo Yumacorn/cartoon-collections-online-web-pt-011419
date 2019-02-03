@@ -16,8 +16,8 @@ def find_the_cheese(assortment)
     if cheese_types.include?(item)
       puts item
       return item
-    else
-      return nil
+    #else
+    #  return nil
     end
   end
 end
