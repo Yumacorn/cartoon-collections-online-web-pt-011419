@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(assortment)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  return assortment|item| if assortment.each {|item| cheese_types.include?(item)}
+  assortment.each {|item| cheese_types.include?(item)}
 end
